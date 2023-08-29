@@ -113,7 +113,7 @@ return () =>{ clearInterval(catTimer)}
 {
   errorStatus && <h1>Cat could not be generate</h1>
 }
-            <img src={img}  alt='cat' className="cats" />
+            <img src={img}  alt='cat'  />
           </Item>
         </Grid>
       </Grid>
